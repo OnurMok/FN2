@@ -1,4 +1,4 @@
-alert("test");
+alert("Welcome");
 
 let a = prompt("Please enter the value for a");
 console.log(a)
@@ -10,5 +10,5 @@ a = a * a
 b = b * b
 
 c = a + b 
-c = c*
+c = Math.sqrt(c)
 console.log(c)
