@@ -6,6 +6,9 @@ console.log(typeof List);
 List.push("Milk","Bread","Apple");
 console.log(List);
 
+let indexOfBread = List.indexOf("Bread");
+console.log(indexOfBread);
+
 List.splice(1,1,"Banana", "Eggs");
 console.log(List);
 
