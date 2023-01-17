@@ -28,3 +28,5 @@ function ReversNumber(x) {
 console.log(ReversNumber(322423));
 console.log(ReversNumber(342534234245));
 console.log(ReversNumber(44455545));
+console.log(ReversNumber(44466675));
+
