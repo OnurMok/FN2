@@ -30,3 +30,11 @@ console.log(ReversNumber(342534234245));
 console.log(ReversNumber(44455545));
 console.log(ReversNumber(44466675));
 
+function ReverseNumber2(x) {
+    let y = x.toString().split("").reverse().join("");
+    return parseInt(y);
+}
+
+console.log(ReverseNumber2(223123));
+console.log(ReverseNumber2(123456));
+console.log(ReverseNumber2(34253));
