@@ -19,3 +19,26 @@ function sayHI(person) {
 
 sayHI(D);
 sayHI(K);
+
+class PersonMethods {
+    constructor (fname, lname) {
+        this.firstname = fname;
+        this.lastname = lname;
+    }
+
+    greet() {
+        console.log("Hi there! I am " + this.firstname);
+    }
+
+    compliment(name, object) {
+        return "That's a wonderful " + object + ", " + name;
+        }
+}
+
+let ana = new PersonMethods("Ana", "Cvetkova");
+let nate = new PersonMethods("Nate", "Stamenkova");
+ana.greet();
+nate.greet();
+
+let anaCompliment = ana.compliment(nate.firstname, "dress");
+console.log(anaCompliment);
