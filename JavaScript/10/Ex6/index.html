@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex10.6</title>
+</head>
+<body>
+    
+    <h1>On clik example</h1>
+    <div id="one" onclick="alert('Dzeno pazi se!')">click me!</div>
+    <div id="two" onclick="stop()">click me!</div>
+    <div id="three">Samo tekst bez on click me!</div>
+
+    <script>
+        function stop() {
+            alert("Pazi kuce!");
+        }
+
+        console.dir(document.getElementById("three"));
+        
+        document.getElementById("three").onclick = function () {
+            alert("Dzeno ke go jades!");
+        }
+    </script>
+</body>
+</html>
